@@ -1,0 +1,91 @@
+* {
+  color: white;
+}
+
+button, button .text-dark {
+  color: black;
+}
+
+.button-icon {
+  width: 16px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.heading-title {
+  font-size: 36px;
+}
+
+.bg-dark {
+  background-color: #222222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.button-wrapper-biodata {
+  display: flex;
+  gap: 30px;
+  background-color: pink;
+}
+
+.button {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:active {
+  opacity: 0.2;
+}
+
+.button.primary {
+  background-color: greenyellow;
+}
+
+.button.secondary {
+  /* background-color: orange; */
+  background-image: url("public/button-background.png");
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.bg-image {
+  /* background-color: orange; */
+  background-image: url("public/button-background.png");
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+/* .button-primary {
+  background-color: greenyellow;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.button-secondary {
+  background-color: orange;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+} */

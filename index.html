@@ -4,22 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quiz HTML</title>
+  <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <section>
-    <h1 style="font-size: 36px;">Javascript Developer Class</h1>
+<body class="bg-dark">
+  <section class="navbar">
+    <h1 class="heading-title">Javascript Developer Class</h1>
+    <div class="button-wrapper">
+      <a href="https://google.com">
+        <button class="button primary">
+          <div class="text-dark align-center">
+            Click Me!
+            <img src="public/arrow-icon.png" class="button-icon" alt="">
+          </div>
+        </button>
+      </a>
+      <button class="button secondary">Don't click me!</button>
+      <!-- <button class="button-primary">Click Me!</button>
+      <button class="button-secondary">Don't click me!</button> -->
+    </div>
   </section>
   <hr>
   <section>
-    <h2>Biodata</h2>
-    <p>Berikut adalah biodata dari developer:</p>
-    <ul>
-      <li>Nama: John Doe</li>
-      <li>Umur: 25</li>
-      <li>Hobi: Menyanyi</li>
-      <li>Tempat tinggal: Jakarta</li>
-    </ul>
+    <div class="bg-image">
+      <h2>Biodata</h2>
+      <p>Berikut adalah biodata dari developer:</p>
+      <ul>
+        <li class="text-bold">Nama: John Doe</li>
+        <li class="text-italic">Umur: 25</li>
+        <li class="text-underline">Hobi: Menyanyi</li>
+        <li class="text-bold">Tempat tinggal: Jakarta</li>
+      </ul>
+    </div>
     <img src="https://dummyimage.com/300" alt="">
+    <div class="button-wrapper-biodata">
+      <button class="button secondary">Click Me!</button>
+      <button class="button primary">Don't click me!</button>
+    </div>
   </section>
   <hr>
   <section>

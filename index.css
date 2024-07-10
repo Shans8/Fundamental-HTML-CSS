@@ -62,7 +62,7 @@ button, button .text-dark {
 
 .button.secondary {
   /* background-color: orange; */
-  background-image: url("public/button-background.png");
+  background-image: url("public/javascript-icon.png");
   background-position: center;
   background-size: 30px;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ button, button .text-dark {
 
 .bg-image {
   /* background-color: orange; */
-  background-image: url("public/button-background.png");
+  background-image: url("public/javascript-icon.png");
   background-position: center;
   background-size: 30px;
   background-repeat: no-repeat;

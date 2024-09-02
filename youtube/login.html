@@ -8,24 +8,24 @@
 </head>
 <body>
   <div class="h-screen w-screen bg-[#212121] flex text-white">
-    <div class="w-3/4">
+    <div class="sm:w-3/4 max-[640px]:hidden">
       <img src="public/Login Image.png" alt="" class="w-full h-full object-cover">
     </div>
-    <div class="w-1/4 p-12 flex flex-col justify-between">
-      <div class="flex flex-col gap-12">
-        <div>
-          <img src="public/Youtube Icon.png" alt="">
+    <div class="sm:w-1/4 sm:p-12 max-[640px]:p-4 flex flex-col justify-between max-[640px]:w-full">
+      <div class="flex flex-col gap-12 max-[640px]:gap-4">
+        <div class="">
+          <img src="public/Youtube Icon.png" alt="" class="max-[640px]:hidden">
         </div>
-        <form class="flex flex-col gap-8">
+        <form class="flex flex-col gap-8" id="login-form">
           <div>
             <h1 class="text-3xl font-semibold mb-8">Nice to see you again</h1>
             <div class="flex flex-col gap-5">
               <div class="flex flex-col gap-3">
-                <label for="email">Login</label>
+                <label for="email" class="max-[640px]:hidden">Login</label>
                 <input type="text" name="email" id="email" placeholder="Email or phone number" class="text-black px-3 py-3 rounded-lg">
               </div>
               <div class="flex flex-col gap-3">
-                <label for="password">Password</label>
+                <label for="password" class="max-[640px]:hidden">Password</label>
                 <input type="text" name="password" id="password" placeholder="Enter password" class="text-black px-3 py-3 rounded-lg">
               </div>
               <div class="flex justify-between">
@@ -50,13 +50,16 @@
             </div>
           </div>
           <div>
-            <button class="w-full bg-[#007AFF] py-3 rounded-lg">Sign In</button>
+            <button class="w-full bg-[#007AFF] py-3 rounded-lg hover:bg-[#005FC6]">Sign In</button>
           </div>
         </form>
         <div class="flex justify-center gap-3 text-sm">
           <p>Dont have an account?</p>
           <a href="https://google.com" class="text-blue-500">Sign up now</a>
         </div>
+      </div>
+      <div class="min-[640px]:hidden flex justify-center">
+        <img src="public/Youtube Icon.png" alt="">
       </div>
       <div class="flex justify-between">
         <div class="flex gap-2">

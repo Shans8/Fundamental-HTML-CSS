@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Welcome to Youtube, Login Now!</title>
+</head>
+<body>
+  <div class="h-screen w-screen bg-[#212121] flex text-white">
+    <div class="sm:w-3/4 max-[640px]:hidden">
+      <img src="public/Login Image.png" alt="" class="object-cover w-full h-full">
+    </div>
+    <div class="sm:w-2/6 sm:p-12 max-[640px]:p-4 flex flex-col justify-between max-[640px]:w-full">
+      <div class="flex flex-col gap-12 max-[640px]:gap-4">
+        <div>
+          <img src="public/Youtube Icon.png" alt="" class="max-[640px]:hidden">
+        </div>
+        <form class="flex flex-col gap-8">
+          <div>
+            <h1 class="text-3xl font-semibold mb-3">Nice to see you again</h1>
+            <div class="flex flex-col gap-5">
+              <div class="flex flex-col gap-3">
+                <label for="email" class="max-[640px]:hidden">Login</label>
+                <input type="text" name="email" id="email" placeholder="Email or phone number" class="text-black px-3 py-3 rounded-lg">
+              </div>
+              <div class="flex flex-col gap-3">
+                <label for="password" class="max-[640px]:hidden">Password</label>
+                <input type="text" name="password" id="password" placeholder="Enter password" class="text-black px-3 py-3 rounded-lg">
+              </div>
+              <div class="flex justify-between">
+                <div class="flex gap-2 items-center">
+                  <label for="toggleTwo" class="flex items-center cursor pointer select-none text-dark dark:text-white">
+                    <div class="relative">
+                      <input type="checkbox" id="toggleTwo" class="peer sr-only">
+                      <div class="block h-8 rounded-full dark:bg-dark-2 bg-gray-300 w-14"></div>
+                      <div class="absolute w-6 h-6 transition bg-white rounded-full dot dark:bg-dark-4 left-1 top-1 peer-checked:translate-x-full peer-checked bg-primary"></div>
+                    </div>
+                  </label>
+                  <p>Remember me</p>
+                </div>
+              </div>
+              <div>
+                <a href="https://google.com" class="text-blue-500">Forgot password</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <button class="w-full bg-[#007AFF] py-2 rounded-lg">Sign In</button>
+          </div>
+        </form>
+        <div class="flex justify-center gap-3 text-sm">
+          <p>Dont have an account?</p>
+          <a href="https://google.com" class="text-blue-500">Sign up now</a>
+        </div>
+      </div>
+      <div class="min-[640px]:hidden flex justify-center">
+        <img src="public/Youtube Icon.png" alt="">
+      </div>
+      <div class="flex justify-between">
+        <div class="flex gap-2">
+          <img src="public/Figma Icon.png" alt="">
+          <a href="https://google.com" class="text-blue-500">@uiunicorn</a>
+        </div>
+        <div>
+          <p>© Perfect Login 2021</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
